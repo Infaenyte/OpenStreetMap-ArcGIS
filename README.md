@@ -7,12 +7,18 @@ Provides a means to style OpenStreetMap data imported into ArcGIS using the [Ope
 The styles are based on the humanitarian theme from http://openstreetmap.org/. The original style information is from [HDM-CartoCSS](https://github.com/hotosm/HDM-CartoCSS) and is based on [CartoCSS](https://github.com/mapbox/carto).
 
 In addition to the styles a work flow will be generated that will walk through a complete process of:
--1. Load
--2. Extract additional tags
--3. Build network dataset
--4. Update template mxd with loaded data
--5. Publish to ArcGIS server
--6. Generate tile cache
+
+1. Load
+
+2. Extract additional tags
+
+3. Build network dataset
+
+4. Update template mxd with loaded data
+
+5. Publish to ArcGIS server
+
+6. Generate tile cache
 
 In addition address locators will be built and published along with publishing the network dataset. The entire process will be semi automated using geoprocessing scripts.
 
